@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background-color: rgb(22, 22, 22);
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Titillium Web";
+
+}
+
+.icone-menu {
+    height: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 35px;
+}
+
+.banner {
+    height: 270px;
+    background-image: url(../img/Group9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo-banner {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-banner h1 {
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.conteudo-banner p {
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.jogos {
+    background-color: black;
+    height: 120px;
+}
+
+.posicao-jogos {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.produtos-full{
+    background-color: black;
+    height: 500px;
+}
+
+.card {
+    color: black;
+}
+.footer{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Botões menu*/
+.dropbtn {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 40px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3d3d3d;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #3d3d3d}
+  
+  .show {display: block;}
+
+/*Responsividade*/
+@media screen and (max-width: 1100px) {
+    .menu {
+        display: none;
+    }
+    #barras {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768) {
+    header {
+        background-color: darkblue;
+    }  
+    .logo{
+        width: 100px;
+    } 
+}
+
+/*Formulario*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  
+  .login {
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px;
+  }
