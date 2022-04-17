@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <div class="container-grid cabecalho"> <!--GRID-->
+        <div class="container cabecalho"> <!--GRID-->
             <a href="index.html"><img class="logo" src="img/Game-Mania.svg" alt="Logo do site Game Mania"></a>
         <nav id="menu" class="menu">
           <div class="dropdown">
@@ -37,7 +37,7 @@
 
     <main>
         <section class="banner">
-            <div class="container-grid">  
+            <div class="container">  
             <div class="conteudo-banner">
                     <h1>Game Mania</h1>
                     <p>Os melhores preços em produtos Gamers,</br> voçê só encontra aqui.</p>
@@ -45,7 +45,7 @@
             </div>
         </section>
         <section class="jogos">
-            <div class="container-grid posicao-jogos">
+            <div class="container posicao-jogos">
                 <img src="img/cs-logo.png" alt="image1">
                 <img src="img/fifa.png" alt="image2">
                 <img src="img/lol-logo.png" alt="image3">
@@ -53,12 +53,12 @@
             </div>
         </section>
 
-        <div class="login container-grid">
-            <form name="formulario" action="cadastro.php" method="POST" onsubmit=" return validateForm()">
+        <div class="login container">
+            <form name="formulario">
               <p>Nome: <input type="text" name="nome" required/></p>
               <p>Email: <input type="text" name="email"/></p>
 
-              <input type="checkbox" id="concorda" name ="yes"value="Sim" required>
+              <input type="checkbox" id="concorda"required>
               <label for="concorda">Concorda com os termos de uso?</label>
         
               <p><input type="submit" value="Inscreva-se"></p>
@@ -75,7 +75,7 @@
               <li><a href="#">facebook</a></li>
               <li><a href="#">instagran</a></li>
               <li><a href="#">twitter<a></li>
-              <li><a href="https://www.youtube.com/">youtube</a></li>
+              <li><a href="#">youtube</a></li>
             </ul>
         </div>
     </footer>

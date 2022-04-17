@@ -11,10 +11,10 @@ header {
     background-color: rgb(22, 22, 22);
 }
 
-.container-grid {
+/*.container-grid {
     width: 1200px;
     margin: 0 auto;
-}
+}*/
 
 .cabecalho {
     display: flex;
@@ -155,7 +155,7 @@ header {
   
   .show {display: block;}
 
-/*Responsividade*/
+/*Responsividade
 @media screen and (max-width: 1100px) {
     .menu {
         display: none;
@@ -172,7 +172,7 @@ header {
     .logo{
         width: 100px;
     } 
-}
+}*/
 
 /*Formulario*/
 input[type=text], select {
@@ -203,7 +203,6 @@ input[type=text], select {
   }
   
   .login {
-    border-radius: 30px;
     background-color: black;
     color: white;
     font-weight: bold;
