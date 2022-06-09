@@ -48,10 +48,20 @@ header {
 
 .banner {
     height: 270px;
-    background-image: url(../img/Group9.png);
+    /*background-image: url(../img/Group9.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-02 {
+    background-image: url(../img/Group2.png);
+}
+.banner-03 {
+    background-image: url(../img/Group3.png);
+}
+.banner-09 {
+    background-image: url(../img/Group9.png);
 }
 
 .conteudo-banner {
